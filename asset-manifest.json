@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/joshburer.github.io/joshuaburer.com/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/joshburer.github.io/joshuaburer.com/static/js/main.95b99473.chunk.js",
+    "main.js.map": "/joshburer.github.io/joshuaburer.com/static/js/main.95b99473.chunk.js.map",
+    "runtime-main.js": "/joshburer.github.io/joshuaburer.com/static/js/runtime-main.ea997685.js",
+    "runtime-main.js.map": "/joshburer.github.io/joshuaburer.com/static/js/runtime-main.ea997685.js.map",
+    "static/js/2.b0a8efed.chunk.js": "/joshburer.github.io/joshuaburer.com/static/js/2.b0a8efed.chunk.js",
+    "static/js/2.b0a8efed.chunk.js.map": "/joshburer.github.io/joshuaburer.com/static/js/2.b0a8efed.chunk.js.map",
+    "static/js/3.1dbbd821.chunk.js": "/joshburer.github.io/joshuaburer.com/static/js/3.1dbbd821.chunk.js",
+    "static/js/3.1dbbd821.chunk.js.map": "/joshburer.github.io/joshuaburer.com/static/js/3.1dbbd821.chunk.js.map",
+    "index.html": "/joshburer.github.io/joshuaburer.com/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/joshburer.github.io/joshuaburer.com/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.b0a8efed.chunk.js.LICENSE.txt": "/joshburer.github.io/joshuaburer.com/static/js/2.b0a8efed.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/joshburer.github.io/joshuaburer.com/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea997685.js",
+    "static/js/2.b0a8efed.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.95b99473.chunk.js"
+  ]
+}
