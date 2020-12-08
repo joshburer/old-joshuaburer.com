@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/joshburer.github.io/joshuaburer.com/static/css/main.2d63dd7e.chunk.css",
-    "main.js": "/joshburer.github.io/joshuaburer.com/static/js/main.0c2f0de9.chunk.js",
-    "main.js.map": "/joshburer.github.io/joshuaburer.com/static/js/main.0c2f0de9.chunk.js.map",
-    "runtime-main.js": "/joshburer.github.io/joshuaburer.com/static/js/runtime-main.7d4fb2dc.js",
-    "runtime-main.js.map": "/joshburer.github.io/joshuaburer.com/static/js/runtime-main.7d4fb2dc.js.map",
-    "static/js/2.bb389cd3.chunk.js": "/joshburer.github.io/joshuaburer.com/static/js/2.bb389cd3.chunk.js",
-    "static/js/2.bb389cd3.chunk.js.map": "/joshburer.github.io/joshuaburer.com/static/js/2.bb389cd3.chunk.js.map",
-    "static/js/3.917a2058.chunk.js": "/joshburer.github.io/joshuaburer.com/static/js/3.917a2058.chunk.js",
-    "static/js/3.917a2058.chunk.js.map": "/joshburer.github.io/joshuaburer.com/static/js/3.917a2058.chunk.js.map",
-    "index.html": "/joshburer.github.io/joshuaburer.com/index.html",
-    "static/css/main.2d63dd7e.chunk.css.map": "/joshburer.github.io/joshuaburer.com/static/css/main.2d63dd7e.chunk.css.map",
-    "static/js/2.bb389cd3.chunk.js.LICENSE.txt": "/joshburer.github.io/joshuaburer.com/static/js/2.bb389cd3.chunk.js.LICENSE.txt"
+    "main.css": "/joshuaburer.com/static/css/main.2d63dd7e.chunk.css",
+    "main.js": "/joshuaburer.com/static/js/main.0c2f0de9.chunk.js",
+    "main.js.map": "/joshuaburer.com/static/js/main.0c2f0de9.chunk.js.map",
+    "runtime-main.js": "/joshuaburer.com/static/js/runtime-main.19f9974f.js",
+    "runtime-main.js.map": "/joshuaburer.com/static/js/runtime-main.19f9974f.js.map",
+    "static/js/2.bb389cd3.chunk.js": "/joshuaburer.com/static/js/2.bb389cd3.chunk.js",
+    "static/js/2.bb389cd3.chunk.js.map": "/joshuaburer.com/static/js/2.bb389cd3.chunk.js.map",
+    "static/js/3.917a2058.chunk.js": "/joshuaburer.com/static/js/3.917a2058.chunk.js",
+    "static/js/3.917a2058.chunk.js.map": "/joshuaburer.com/static/js/3.917a2058.chunk.js.map",
+    "index.html": "/joshuaburer.com/index.html",
+    "static/css/main.2d63dd7e.chunk.css.map": "/joshuaburer.com/static/css/main.2d63dd7e.chunk.css.map",
+    "static/js/2.bb389cd3.chunk.js.LICENSE.txt": "/joshuaburer.com/static/js/2.bb389cd3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d4fb2dc.js",
+    "static/js/runtime-main.19f9974f.js",
     "static/js/2.bb389cd3.chunk.js",
     "static/css/main.2d63dd7e.chunk.css",
     "static/js/main.0c2f0de9.chunk.js"
