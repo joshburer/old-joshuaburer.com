@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.css';
 import Navbar from "./Navbar.js"
 import Home from "./Home.js"
 import Contact from "./Contact.js"

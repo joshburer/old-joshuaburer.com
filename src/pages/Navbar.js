@@ -1,10 +1,10 @@
-import './Navbar.css';
+import './css/Navbar.css';
 import {Link} from 'react-router-dom';
 
 function Navbar() {
     return (
         <div className="navbar">
-            <nav>
+            <nav className="nav-elements">
                 <NavItem name="Home" link="/" />
                 <NavItem name="Contact" link="/contact" />
             </nav>
@@ -15,9 +15,12 @@ function Navbar() {
 
 function NavItem(props) {
     return (
-        <Link to={props.link}>
-            {props.name}
+        <Link to={props.link} className="navLink">
+            <div className="nav-element">
+                {props.name}
+            </div>
         </Link>
+
     );
 }
 

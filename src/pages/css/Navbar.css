@@ -1,0 +1,40 @@
+div.navbar {
+    width: 100%;
+    --navbar-height: min(10vw, 5rem);
+    height: var(--navbar-height);
+    background-color: var(--bg-color2);
+}
+
+a.navLink {
+    font-size: calc(min(10vw, 5rem) / 3);
+}
+
+nav.nav-elements {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+}
+.navLink {
+    height: 100%;
+    transition: ease .05s;
+
+}
+.navLink:hover {
+    background-color: var(--bg-color);
+}
+.nav-element {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+    transition: ease .4s;
+}
+.navLink:hover .nav-element {
+    transform: translate(0, -.2rem);
+}
