@@ -6,7 +6,7 @@ function Navbar() {
         <div className="navbar">
             <nav className="nav-elements">
                 <NavItem name="Home" link="/" />
-                <NavItem name="Contact" link="/contact" />
+                <NavItem name="Info" link="/info" />
             </nav>
 
         </div>

@@ -1,0 +1,26 @@
+#footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    text-align: center;
+}
+
+
+#footer > nav {
+    padding: 2rem;
+}
+
+a.social-button {
+    margin: 1rem;
+    padding:.75rem;
+    border-radius: 20px;
+    max-width: 5rem;
+    background-color: var(--bg-color2);
+    border: 1px solid var(--bg-color2);
+    transition: .2s;
+}
+a.social-button:hover {
+    background-color: var(--bg-color);
+    border: 3px solid var(--bg-color2);
+}

@@ -1,13 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Base Styling  */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    --bg-color: rgb(41, 53, 63);
+    --bg-color2: rgb(30, 36, 45);
+    --text-color: rgb(255,255,255);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a { /* Give links a code font */
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Layout Styling  */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 1.25rem;
+    min-height: 80vh
+}
+.page-container > div {
+    width: 80%;
+}
+.info-box {
+    border-radius: 2rem;
+    background-color: var(--bg-color2);
+    padding: 1.5rem;
+    transition: ease .5s;
+}
+.info-box:hover {
+    transform: scale(1.03);
+    transform-origin: 50%, 50%;
+}
+.info-box:hover img:hover {
+    transform: scale(1.025);
+    transform-origin: 50%, 50%;
+}
+
+/** Content Styling **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+h1, h2, h3 {
+    font-family: Montserrat
+}
+hr {
+    width: auto;
+    height: 0;
+    border: .2rem solid var(--bg-color2);
+    border-radius: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    max-width: min(100%, 25rem);
+    border-radius: 2rem;
+    transition: ease-out .4s;
 }
