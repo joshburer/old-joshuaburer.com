@@ -1,13 +1,10 @@
+@import "../../_variables.scss";
+$navbar-height: calc(min(15vw, 4rem));
+
 div.navbar {
-  --navbar-height: min(15vw, 4rem);
-
   width: 100%;
-  height: var(--navbar-height);
-  background-color: var(--bg-color2);
-}
-
-a.navLink {
-  font-size: calc(min(10vw, 3rem) / 2);
+  height: $navbar-height;
+  background-color: $bg-color2;
 }
 
 nav.nav-elements {
@@ -18,11 +15,15 @@ nav.nav-elements {
   align-items: center;
 }
 .navLink {
+  font-size: calc(min(10vw, 3rem) / 2);
   height: 100%;
   transition: ease 0.05s;
-}
-.navLink:hover {
-  background-color: var(--bg-color);
+  &:hover {
+    background-color: $bg-color;
+    > .nav-element {
+      transform: translate(0, -0.2rem);
+    }
+  }
 }
 .nav-element {
   display: flex;
@@ -33,7 +34,4 @@ nav.nav-elements {
   margin-left: 5vw;
   margin-right: 5vw;
   transition: ease-out 0.4s;
-}
-.navLink:hover .nav-element {
-  transform: translate(0, -0.2rem);
 }

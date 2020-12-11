@@ -1,0 +1,28 @@
+@import '../../_variables.scss';
+
+
+#footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  text-align: center;
+  > nav {
+    padding: 2rem;
+  }
+}
+
+a.social-button {
+  margin: 1rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  max-width: 5rem;
+  background-color: $bg-color2;
+  border: 1px solid $bg-color2;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: $bg-color;
+    border: 3px solid $bg-color2;
+  }
+}

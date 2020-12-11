@@ -5,7 +5,7 @@ export default function Home() {
     <div className="page-container">
       <div className="initial-greeting">
         <h1 className="greeting">Hello! 👋</h1>
-        <p>I'm Joshua Burer.</p>
+        <h2>I'm Joshua Burer.</h2>
         <p>
           I'm an aspiring software developer, currently pursuing a Bachelor's in
           Computer Science. 💻
