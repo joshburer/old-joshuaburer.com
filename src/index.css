@@ -57,6 +57,9 @@ h1,
 h2,
 h3 {
   font-family: Montserrat;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-bottom: .5rem;
 }
 hr {
   width: auto;
