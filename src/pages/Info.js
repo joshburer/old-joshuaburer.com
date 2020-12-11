@@ -1,4 +1,4 @@
-function Info() {
+export default function Info() {
     return (
         <div className="page-container">
             <div className="site-information">
@@ -14,5 +14,3 @@ function Info() {
         </div>
     );
 }
-
-export default Info;

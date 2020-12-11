@@ -1,6 +1,6 @@
 import './css/Footer.css'
 
-function Footer() {
+export default function Footer() {
     return(
         <div id="footer">
             <nav className="social-links">
@@ -18,5 +18,3 @@ function SocialButton(props) {
         </a>
     );
 }
-
-export default Footer;
