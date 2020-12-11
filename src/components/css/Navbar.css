@@ -1,42 +1,39 @@
 div.navbar {
+  --navbar-height: min(15vw, 4rem);
 
-    --navbar-height: min(15vw, 4rem);
-
-    width: 100%;
-    height: var(--navbar-height);
-    background-color: var(--bg-color2);
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--bg-color2);
 }
 
 a.navLink {
-    font-size: calc(min(10vw, 3rem) / 2);
+  font-size: calc(min(10vw, 3rem) / 2);
 }
 
 nav.nav-elements {
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 .navLink {
-    height: 100%;
-    transition: ease .05s;
-
+  height: 100%;
+  transition: ease 0.05s;
 }
 .navLink:hover {
-    background-color: var(--bg-color);
+  background-color: var(--bg-color);
 }
 .nav-element {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 
-    margin-left: 5vw;
-    margin-right: 5vw;
-    transition: ease-out .4s;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  transition: ease-out 0.4s;
 }
 .navLink:hover .nav-element {
-    transform: translate(0, -.2rem);
+  transform: translate(0, -0.2rem);
 }
