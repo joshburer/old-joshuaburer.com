@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 /* Base Styling  */
 body {
@@ -13,11 +13,13 @@ body {
 }
 
 a {
-  /* Give links a code font */
   text-decoration: none;
   color: $text-color;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  p > & {
+    text-decoration: underline solid 2px rgba(255, 255, 255, 0.7);
+  }
 }
 
 /* Layout Styling  */
@@ -30,7 +32,7 @@ a {
   font-size: 1.25rem;
   min-height: 80vh;
   > div {
-    width: 80%;
+    width: calc(min(80vw, 45rem));
   }
 }
 
@@ -51,7 +53,7 @@ a {
 
 /** Content Styling **/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-h1 {
+.center {
   text-align: center;
 }
 h1,

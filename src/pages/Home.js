@@ -1,11 +1,12 @@
 // import profile from "../static/profile.jpg";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <div className="page-container">
       <div className="initial-greeting">
-        <h1 className="greeting">Hello! 👋</h1>
-        <h2>I'm Joshua Burer.</h2>
+        <h1 className="greeting center">Hey! 👋</h1>
+        <h2 className="center">I'm Joshua Burer.</h2>
         <p>
           I'm an aspiring software developer, currently pursuing a Bachelor's in
           Computer Science. 💻
@@ -15,18 +16,14 @@ export default function Home() {
         {/* <img src={profile} alt="profile" /> */}
         <h2>Interests & Experience</h2>
         <p>
-          This website is a work in progress, but some of the stuff I've done in
-          the past includes:
+          This website is a work in progress, but I <Link to="/info">built it myself.</Link>
         </p>
+        <p>Some other experience I've had in the past includes:</p>
         <InterestsList />
-        <p>
-          To implement: When the info-box has room, move photo to the right
-          side.
-        </p>
+        <p>I need to add some kinda photos or something :)</p>
       </div>
       <div>
-        <p>I can put more content down here and things will be fine.</p>
-        <p>Below are social media links.</p>
+        <p>Want to get in contact? Use the links below.</p>
       </div>
     </div>
   );
