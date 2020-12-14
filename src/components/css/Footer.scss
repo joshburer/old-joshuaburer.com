@@ -1,14 +1,19 @@
-@import '../../_variables.scss';
+@import "../../_variables.scss";
 
-
-#footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: auto;
-  text-align: center;
-  > nav {
-    padding: 2rem;
+/* Making the footer work */
+div#root {
+  position: relative;
+  min-height: 100vh;
+  > #footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    text-align: center;
+    > nav {
+      padding: 0.5rem;
+    }
   }
 }
 
@@ -30,4 +35,3 @@ a.social-button {
     border: 3px solid $bg-color2;
   }
 }
-

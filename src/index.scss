@@ -13,12 +13,21 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration-color:rgba(255, 255, 255, 0);
   color: $text-color;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-  p > & {
-    text-decoration: underline solid 2px rgba(255, 255, 255, 0.7);
+
+  transition: text-decoration ease 0.2s;
+
+  p > &,
+  li > & {
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline solid;
+    text-decoration-thickness: 2px;
+    &:hover {
+      text-decoration-color: white;
+    }
   }
 }
 
@@ -34,6 +43,7 @@ a {
   > div {
     width: calc(min(80vw, 45rem));
   }
+  padding-bottom: 6rem;
 }
 
 .info-box {
@@ -44,10 +54,6 @@ a {
   &:hover {
     transform: scale(1.03);
     transform-origin: 50%, 50%;
-    img:hover {
-      transform: scale(1.025);
-      transform-origin: 50%, 50%;
-    }
   }
 }
 
@@ -80,10 +86,15 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  max-width: calc(min(100%, 25rem));
+  width: calc(max(40%, 20rem));
   border-radius: 2rem;
   transition: ease-out 0.4s;
+  box-shadow: 0px 0px 20px 5px $bg-color2;
+
+  &:hover {
+    transform: scale(1.025);
+    transform-origin: 50%, 50%;
+  }
 }
 
 /* Home Page Stuff */

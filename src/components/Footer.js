@@ -5,7 +5,7 @@ export default function Footer() {
     <div id="footer">
       <nav className="social-links">
         <SocialButton name="Github" link="https://github.com/joshburer" />
-        <SocialButton name="Email" link="mailto:joshburer@gmail.com" />
+        <SocialButton name="Email" link="mailto:contact@joshuaburer.com" />
       </nav>
     </div>
   );
