@@ -5,16 +5,18 @@ div.navbar {
   width: 100%;
   height: $navbar-height;
   background-color: $bg-color2;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav.nav-elements {
   display: flex;
   height: 100%;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
-a.navLink {
+a.nav-link {
   font-size: calc(min(10vw, 3rem) / 2);
   height: 100%;
   transition: ease 0.05s;

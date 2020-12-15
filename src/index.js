@@ -16,7 +16,7 @@ import Projects from "./pages/Projects";
 // Page Routing using React-Router-Dom
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const pages = ["Home", "Info", "Projects"];
+const pages = ["Info", "Projects"];
 
 ReactDOM.render(
   <React.StrictMode>
