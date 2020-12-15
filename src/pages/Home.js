@@ -27,7 +27,7 @@ export default function Home() {
     </div>
   );
 }
-
+// Just to separate this into a different section so as to not take up so much space.
 function InterestsList() {
   return (
     <ul>
