@@ -14,10 +14,11 @@ nav.nav-elements {
   justify-content: flex-end;
   align-items: center;
 }
-.navLink {
+a.navLink {
   font-size: calc(min(10vw, 3rem) / 2);
   height: 100%;
   transition: ease 0.05s;
+  text-decoration: none;
   &:hover {
     background-color: $bg-color;
     > .nav-element {

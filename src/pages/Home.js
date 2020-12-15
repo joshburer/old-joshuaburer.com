@@ -7,21 +7,22 @@ export default function Home() {
       <div className="initial-greeting">
         <h1 className="greeting center">Hey! 👋</h1>
         <h2 className="center">I'm Joshua Burer.</h2>
-        <img className="profile" src={profile} alt="profile"/>
+        <img className="profile" src={profile} alt="profile" />
         <p>
-          I'm an aspiring software developer, currently pursuing a Bachelor's in
-          Computer Science. 💻
+          I'm a college student, currently pursuing a Bachelor's in Computer
+          Science. 💻
         </p>
       </div>
       <div className="info-box">
         {/* <img src={profile} alt="profile" /> */}
         <h2>Interests & Experience</h2>
         <p>
-          This website is a work in progress, but I <Link to="/info">built it myself.</Link>
+          I am working mostly towards learning web development. That includes
+          this website, which I <Link to="/info">built myself.</Link>
         </p>
-        <p>Some other experience I've had in the past includes:</p>
+        <hr />
+        <p>Programming experience I've had in the past includes:</p>
         <InterestsList />
-        <p>I need to add some kinda photos or something :)</p>
       </div>
     </div>
   );
@@ -31,10 +32,11 @@ function InterestsList() {
   return (
     <ul>
       <li>
-        Web Development:
+        🌐 Web Development:
         <ul>
           <li>
-            Frontend: <span className="languages">React (JavaScript), HTML, CSS</span>
+            Frontend:{" "}
+            <span className="languages">React (JavaScript), HTML, CSS</span>
           </li>
           <li>
             Backend: <span className="languages">Django (Python)</span>
@@ -42,10 +44,14 @@ function InterestsList() {
         </ul>
       </li>
       <li>
-        Formal Education: <span className="languages">Java</span>
+        📚 Formal Education: <span className="languages">Java</span>
       </li>
       <li>
-        Gamedev: <span className="languages"> Unity (C#), Love2D (lua), Godot Engine (GDScript).</span>
+        🎮 Game Development:
+        <span className="languages">
+          {" "}
+          Unity (C#), Love2D (lua), Godot Engine (GDScript).
+        </span>
       </li>
     </ul>
   );

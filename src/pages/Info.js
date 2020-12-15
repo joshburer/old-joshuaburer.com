@@ -2,7 +2,7 @@ export default function Info() {
   return (
     <div className="page-container">
       <div className="site-information">
-        <h1>About this site</h1>
+        <h1 className="center">About This Site</h1>
         <hr />
         <h3>This site was built and hosted using:</h3>
         <ul>
@@ -12,13 +12,29 @@ export default function Info() {
         </ul>
         <h3>NPM packages used:</h3>
         <ul>
-          <li><a href="https://www.npmjs.com/package/create-react-app">create-react-app</a></li>
-          <li><a href="https://www.npmjs.com/package/node-sass">node-sass</a></li>
-          <li><a href="https://www.npmjs.com/package/gh-pages">gh-pages</a></li>
-          <li><a href="https://www.npmjs.com/package/react-router">react-router</a></li>
-          <li><a href="https://www.npmjs.com/package/react-router-dom">react-router-dom</a></li>
+          <NpmLink name="create-react-app"/>
+          <NpmLink name="node-sass"/>
+          <NpmLink name="gh-pages"/>
+          <NpmLink name="react-router"/>
+          <NpmLink name="react-router-dom"/>
         </ul>
       </div>
+      <a
+        className="link-button"
+        href="https://github.com/joshburer/joshuaburer.com"
+      >
+        view the git repository here
+      </a>
     </div>
+  );
+}
+
+function NpmLink(props) {
+  return (
+    <li>
+      <a href={"https://www.npmjs.com/package/" + props.name}>
+      {props.name}
+      </a>
+    </li>
   );
 }

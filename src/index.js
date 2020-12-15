@@ -10,17 +10,24 @@ import Footer from "./components/Footer.js";
 // Pages
 import Home from "./pages/Home.js";
 import Info from "./pages/Info.js";
+import Projects from "./pages/Projects";
+
 
 // Page Routing using React-Router-Dom
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+const pages = ["Home", "Info", "Projects"];
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Navbar />
+      <Navbar pages={pages} />
       <Switch>
+        {/* Route to most specific first */}
+        <Route path="/projects">
+          <Projects />
+        </Route>
         <Route path="/info">
-          {/* Route to the most specific first */}
           <Info />
         </Route>
         <Route path="/">

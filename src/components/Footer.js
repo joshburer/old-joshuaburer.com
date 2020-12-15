@@ -13,7 +13,7 @@ export default function Footer() {
 
 function SocialButton(props) {
   return (
-    <a className="social-button" href={props.link}>
+    <a className="link-button" href={props.link}>
       {props.name}
     </a>
   );
