@@ -1,7 +1,7 @@
 export default function Info() {
   return (
-    <div className="page-container">
-      <div className="site-information">
+    <main className="page-container">
+      <section className="site-information">
         <h1 className="center">About This Site</h1>
         <hr />
         <h3>This site was built and hosted using:</h3>
@@ -18,14 +18,14 @@ export default function Info() {
           <NpmLink name="react-router"/>
           <NpmLink name="react-router-dom"/>
         </ul>
-      </div>
+      </section>
       <a
         className="link-button"
         href="https://github.com/joshburer/joshuaburer.com"
       >
         view the git repository here
       </a>
-    </div>
+    </main>
   );
 }
 

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="page-container">
-      <div className="initial-greeting">
+    <main className="page-container">
+      <section className="initial-greeting">
         <h1 className="greeting center">Hey! 👋</h1>
         <h2 className="center">I'm Joshua Burer.</h2>
         <img className="profile" src={profile} alt="profile" />
@@ -12,8 +12,8 @@ export default function Home() {
           I'm a college student, currently pursuing a Bachelor's in Computer
           Science. 💻
         </p>
-      </div>
-      <div className="info-box">
+      </section>
+      <section className="info-box">
         {/* <img src={profile} alt="profile" /> */}
         <h2>Interests & Experience</h2>
         <p>
@@ -23,8 +23,8 @@ export default function Home() {
         <hr />
         <p>Programming experience I've had in the past includes:</p>
         <InterestsList />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 // Just to separate this into a different section so as to not take up so much space.

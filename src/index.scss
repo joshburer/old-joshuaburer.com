@@ -56,7 +56,7 @@ a {
 
   font-size: 1.25rem;
   min-height: 80vh;
-  > div {
+  > * {
     width: calc(min(80vw, 45rem));
   }
   padding-bottom: 6rem;

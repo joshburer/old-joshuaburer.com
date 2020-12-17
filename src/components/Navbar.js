@@ -23,7 +23,9 @@ function RightNavItems() {
   const pages = ["Info", "Projects"];
   return pages.map((page) => (
     <Link to={page.toLowerCase()} className="nav-link">
-      <div className="nav-element">{page}</div>
+      <div className="nav-element">
+        {page}
+      </div>
     </Link>
   ));
 }
