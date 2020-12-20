@@ -1,6 +1,6 @@
 export default function Info() {
   return (
-    <main className="page-container">
+    <main className="page-container fade-in">
       <section className="site-information">
         <h1 className="center">About This Site</h1>
         <hr />
@@ -20,7 +20,7 @@ export default function Info() {
         </ul>
       </section>
       <a
-        className="link-button"
+        className="link-button center"
         href="https://github.com/joshburer/joshuaburer.com"
       >
         view the git repository here

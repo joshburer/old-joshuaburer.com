@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <main className="page-container">
+    <main className="page-container fade-in">
       <section className="initial-greeting">
         <h1 className="greeting center">Hey! 👋</h1>
         <h2 className="center">I'm Joshua Burer.</h2>

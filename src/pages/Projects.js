@@ -5,7 +5,7 @@ import something from "../static/something.jpg";
 
 export default function Projects() {
   return (
-    <main className="page-container">
+    <main className="page-container fade-in">
       <section>
         <h1 className="center">Projects</h1>
         <p>

@@ -130,3 +130,21 @@ img {
     monospace;
   font-style: italic;
 }
+
+
+/* Fade In Animation */
+
+.fade-in {
+  animation: fadeIn .5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
