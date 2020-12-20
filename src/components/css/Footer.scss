@@ -11,14 +11,18 @@
     left: 0;
     height: auto;
     text-align: center;
-    > div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0.5rem;
-    }
   }
 }
-.link-button {
-  font-size: 1.25rem;
+.social-links {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  .link-button {
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    width: 128px;
+  }
 }
