@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       {/* Separated so the left and right sections of nav-elements can be space-between */}
-      <nav className="left nav-elements">
+      <div className="left nav-elements">
         <Link className="home-button nav-link" to="/">
           <div className="nav-element">Joshua Burer</div>
         </Link>
-      </nav>
+      </div>
 
-      <nav className="right nav-elements">
+      <div className="right nav-elements">
         <RightNavItems />
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
 

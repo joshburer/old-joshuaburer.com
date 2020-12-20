@@ -2,12 +2,12 @@ import "./css/Footer.scss";
 
 export default function Footer() {
   return (
-    <div id="footer">
-      <nav className="social-links">
+    <footer id="footer" className="fade-in">
+      <div className="social-links">
         <SocialButton name="Github" link="https://github.com/joshburer" />
         <SocialButton name="Email" link="mailto:contact@joshuaburer.com" />
-      </nav>
-    </div>
+      </div>
+    </footer>
   );
 }
 

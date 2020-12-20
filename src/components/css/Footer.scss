@@ -1,7 +1,7 @@
 @import "../../_variables.scss";
 
 /* Making the footer work */
-div#root {
+#root {
   position: relative;
   min-height: 100vh;
   > #footer {
@@ -11,7 +11,7 @@ div#root {
     left: 0;
     height: auto;
     text-align: center;
-    > nav {
+    > div {
       padding: 0.5rem;
     }
   }

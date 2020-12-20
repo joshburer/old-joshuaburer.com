@@ -135,7 +135,9 @@ img {
 /* Fade In Animation */
 
 .fade-in {
-  animation: fadeIn .5s ease-in-out;
+  opacity: 0;
+  transform: translateY(1rem);
+  animation: fadeIn .7s ease-in-out .2s forwards;
 }
 
 @keyframes fadeIn {

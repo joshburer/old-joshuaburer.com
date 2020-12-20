@@ -1,7 +1,7 @@
 @import "../../_variables.scss";
 $navbar-height: calc(min(15vw, 4rem));
 
-div.navbar {
+.navbar {
   width: 100%;
   height: $navbar-height;
   background-color: $bg-color2;
@@ -9,7 +9,7 @@ div.navbar {
   justify-content: space-between;
 }
 
-nav.nav-elements {
+.nav-elements {
   display: flex;
   height: 100%;
   flex-direction: row;
