@@ -22,7 +22,7 @@ export default function Navbar() {
 function RightNavItems() {
   const pages = ["Info", "Projects"];
   return pages.map((page) => (
-    <Link to={page.toLowerCase()} className="nav-link">
+    <Link to={page.toLowerCase()} className="nav-link" key={page}>
       <div className="nav-element">
         {page}
       </div>
