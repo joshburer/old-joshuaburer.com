@@ -17,10 +17,16 @@ $navbar-height: calc(min(15vw, 4rem));
   align-items: center;
 }
 a.nav-link {
-  font-size: calc(min(10vw, 3rem) / 2);
+  display: block;
   height: 100%;
-  transition: ease 0.05s;
+  width: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
   text-decoration: none;
+  font-size: 1.5rem;
+  transition: ease 0.05s;
+
   &:hover {
     background-color: $bg-color;
     > .nav-element {
@@ -34,7 +40,9 @@ a.nav-link {
   align-items: center;
   height: 100%;
 
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin: 0;
   transition: ease-out 0.4s;
+}
+.home-button {
+  font-style: italic;
 }

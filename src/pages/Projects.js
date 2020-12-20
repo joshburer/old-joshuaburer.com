@@ -17,7 +17,9 @@ export default function Projects() {
         <ProjectCard>
           <img src={something} alt="something" />
           <h2>Nothing here</h2>
-          <p>Information about the project... lorem ipsum lolom whOPsom ;)</p>
+          <p>Information about the project here.</p>
+          <p>Multiple paragraphs and all that work as well.</p>
+          <p>Any overflow is not rendered, however.</p>
         </ProjectCard>
         <ProjectCard>
           <img src={example} alt="example" />

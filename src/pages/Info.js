@@ -12,11 +12,11 @@ export default function Info() {
         </ul>
         <h3>NPM packages used:</h3>
         <ul>
-          <NpmLink name="create-react-app"/>
-          <NpmLink name="node-sass"/>
-          <NpmLink name="gh-pages"/>
-          <NpmLink name="react-router"/>
-          <NpmLink name="react-router-dom"/>
+          <NpmLink name="create-react-app" />
+          <NpmLink name="node-sass" />
+          <NpmLink name="gh-pages" />
+          <NpmLink name="react-router" />
+          <NpmLink name="react-router-dom" />
         </ul>
       </section>
       <a
@@ -32,9 +32,7 @@ export default function Info() {
 function NpmLink(props) {
   return (
     <li>
-      <a href={"https://www.npmjs.com/package/" + props.name}>
-      {props.name}
-      </a>
+      <a href={"https://www.npmjs.com/package/" + props.name}>{props.name}</a>
     </li>
   );
 }
