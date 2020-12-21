@@ -7,6 +7,7 @@ $navbar-height: calc(min(15vw, 4rem));
   background-color: $bg-color2;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .nav-elements {
@@ -19,9 +20,9 @@ $navbar-height: calc(min(15vw, 4rem));
 a.nav-link {
   display: block;
   height: 100%;
-  width: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  min-width: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   text-decoration: none;
   font-size: 1.5rem;
@@ -29,12 +30,12 @@ a.nav-link {
 
   &:hover {
     background-color: $bg-color;
-    > .nav-element {
+    > .nav-item-contents {
       transform: translate(0, -0.2rem);
     }
   }
 }
-.nav-element {
+.nav-item-contents {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,4 +46,20 @@ a.nav-link {
 }
 .home-button a {
   font-style: italic;
+}
+.nav-link .tooltip {
+  font-style: normal;
+  font-size: .75em;
+  font-family: "Open Sans";
+  display: inline-block;
+  position: absolute;
+  transform: translateY(2.5rem);
+
+  opacity: 0;
+  transition: all ease .5s;
+
+}
+.nav-link:hover .tooltip {
+  transform: translateY(3rem);
+  opacity: 1;
 }

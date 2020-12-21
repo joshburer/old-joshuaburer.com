@@ -21,9 +21,10 @@ function NavItem(props) {
       className="nav-link"
       title={props.name}
     >
-      <div className="nav-element">
+      <div className="nav-item-contents">
         {props.icon}
         {props.children}
+        <div className="tooltip">{props.name}</div>
       </div>
     </Link>
   );
