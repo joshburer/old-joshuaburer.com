@@ -1,26 +1,14 @@
 import "./css/Navbar.scss";
 import { Link } from "react-router-dom";
-import { ReactComponent as Info} from "../static/icons/info.svg";
-import { ReactComponent as Folder} from "../static/icons/folder.svg";
+import { ReactComponent as InfoIcon } from "../static/icons/info.svg";
+import { ReactComponent as FolderIcon } from "../static/icons/folder.svg";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
-      {/* Separated so the left and right sections of nav-elements can be space-between */}
-      <div className="left nav-elements">
-        <Link className="home-button nav-link" to="/">
-          <div className="nav-element">Josh B.</div>
-        </Link>
-      </div>
-
-      <div className="right nav-elements">
-        <NavItem name="Info">
-          <Info />
-        </NavItem>
-        <NavItem name="Projects">
-          <Folder />
-        </NavItem>
-      </div>
+    <nav className="navbar fade-in--no-move">
+      {/*Separated groups to space-between*/}
+      <HomeLink />
+      <NavLinks />
     </nav>
   );
 }
@@ -28,11 +16,34 @@ export default function Navbar() {
 // Creates a link given a page name
 function NavItem(props) {
   return (
-    <Link to={props.name.toString().toLowerCase()} className="nav-link" title={props.name}>
+    <Link
+      to={props.path}
+      className="nav-link"
+      title={props.name}
+    >
       <div className="nav-element">
         {props.icon}
         {props.children}
       </div>
     </Link>
+  );
+}
+
+function NavLinks() {
+  return (
+    <div className="right nav-elements">
+      <NavItem name="Info" path="/info" icon={<InfoIcon />} />
+      <NavItem name="Projects" path="/projects" icon={<FolderIcon />} />
+    </div>
+  );
+}
+
+function HomeLink() {
+  return (
+    <div className="left nav-elements home-button">
+      <NavItem name="Home" path="/">
+        Josh B.
+      </NavItem>
+    </div>
   );
 }

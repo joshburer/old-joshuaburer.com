@@ -9,8 +9,7 @@ export default function Projects() {
       <section>
         <h1 className="center">Projects</h1>
         <p>
-          Nothing here yet but woohooo! I'm going to implement the necessary CSS
-          to add projects.
+          Nothing here yet but I've added the groundwork for cards.
         </p>
       </section>
       <section className="card-list">

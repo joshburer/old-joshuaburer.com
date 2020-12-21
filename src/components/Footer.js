@@ -3,7 +3,6 @@ import "./css/Footer.scss";
 import { ReactComponent as Github} from "../static/icons/github.svg";
 import { ReactComponent as Email} from "../static/icons/email.svg";
 
-
 export default function Footer() {
   return (
     <footer id="footer" className="fade-in">

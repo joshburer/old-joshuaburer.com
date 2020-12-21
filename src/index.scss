@@ -1,12 +1,15 @@
 @import "variables";
-
+:root {
+  font-size: 16px;
+}
 /* Base Styling  */
 body {
   background-color: $bg-color;
   color: $text-color;
   padding: 0;
-  box-sizing: border-box;
   margin: 0;
+  box-sizing: border-box;
+
   font-family: "Open Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,21 +22,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 
   font-size: 1.25rem;
   min-height: 80vh;
   > * {
     width: calc(min(80vw, 45rem));
   }
-  padding-bottom: 6rem;
 }
 
 .info-box {
-  border-radius: 2rem;
   background-color: $bg-color2;
   padding: 1.5rem;
+  border-radius: 2rem;
+
   transition: ease 0.5s;
+
   &:hover {
     transform: scale(1.03);
     transform-origin: 50%, 50%;
@@ -48,6 +52,7 @@ a {
     monospace;
 
   transition: text-decoration ease 0.2s;
+
   text-decoration: underline solid;
   text-decoration-color: rgba(255, 255, 255, 0.7);
   text-decoration-thickness: 2px;
@@ -144,6 +149,10 @@ svg {
   transform: translateY(1rem);
   animation: fadeIn 0.7s ease-in-out 0.2s forwards;
 }
+.fade-in--no-move {
+  opacity: 0;
+  animation: fadeInNoMove 0.4s ease-in-out 0.1s forwards;
+}
 
 @keyframes fadeIn {
   from {
@@ -153,5 +162,13 @@ svg {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+@keyframes fadeInNoMove {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
