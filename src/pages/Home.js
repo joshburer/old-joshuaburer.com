@@ -1,4 +1,4 @@
-import profile from "../static/profile.jpg";
+// import profile from "../static/profile.jpg";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -7,10 +7,16 @@ export default function Home() {
       <section className="initial-greeting">
         <h1 className="greeting center">Hey! 👋</h1>
         <h2 className="center">I'm Joshua Burer.</h2>
-        <img className="profile" src={profile} alt="profile" />
+        {/* <img
+          className="profile"
+          src={profile}
+          alt="profile"
+          width="200"
+          height="200"
+        /> */}
         <p>
-          I'm a college student, currently pursuing a Bachelor's in Computer
-          Science. 💻
+          I'm a student at Georgia State University, currently pursuing a
+          Bachelor's in Computer Science. 💻
         </p>
       </section>
       <section className="info-box">
@@ -18,7 +24,8 @@ export default function Home() {
         <h2>Interests & Experience</h2>
         <p>
           I am working mostly towards learning web development. That includes
-          this website, which I <Link to="/info">built myself.</Link>
+          this website, which I <Link to="/info">built myself.</Link> It's quite
+          simple but I think it does what it needs to!
         </p>
         <hr />
         <p>Programming experience I've had in the past includes:</p>

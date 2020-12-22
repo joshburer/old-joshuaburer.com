@@ -8,17 +8,16 @@ export default function Projects() {
     <main className="page-container fade-in">
       <section>
         <h1 className="center">Projects</h1>
-        <p>
-          Nothing here yet but I've added the groundwork for cards.
+        <p className="center">
+          Nothing significant to put here yet. In the meantime, I have created
+          the styling for cards to showcase different projects.
         </p>
       </section>
       <section className="card-list">
         <ProjectCard>
           <img src={something} alt="something" />
-          <h2>Nothing here</h2>
-          <p>Information about the project here.</p>
-          <p>Multiple paragraphs and all that work as well.</p>
-          <p>Any overflow is not rendered, however.</p>
+          <h2>Project 1</h2>
+          <p>Meaningful information about the project here.</p>
         </ProjectCard>
         <ProjectCard>
           <img src={example} alt="example" />

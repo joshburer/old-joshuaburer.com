@@ -43,7 +43,7 @@ function HomeLink() {
   return (
     <div className="left nav-elements home-button">
       <NavItem name="Home" path="/">
-        Josh B.
+        Joshua Burer
       </NavItem>
     </div>
   );

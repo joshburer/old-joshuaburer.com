@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   width: calc(min(850px, 90vw));
-  grid-gap: 2rem;
+  grid-gap: 0rem;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
@@ -14,7 +14,7 @@
   background-color: $bg-color2;
   width: calc(min(400px, 90%));
   height: 30rem;
-
+  margin: 1rem;
   border-radius: 2rem;
   overflow: hidden;
 

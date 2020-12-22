@@ -25,6 +25,14 @@ export default function Info() {
       >
         view the git repository here
       </a>
+      <p>
+        Building this personal site helped me to learn how to work on
+        larger-multi page React apps and utilize Git for project management.
+      </p>
+      <p>
+        This site is <em>still a work in progress</em>, but the groundwork has
+        been laid for a wider extent of content to showcase my skills.
+      </p>
     </main>
   );
 }
