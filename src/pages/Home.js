@@ -25,7 +25,7 @@ export default function Home() {
         <p>
           I am working mostly towards learning web development. That includes
           this website, which I <Link to="/info">built myself.</Link> It's quite
-          simple but I think it does what it needs to!
+          simple but it works for now.
         </p>
         <hr />
         <p>Programming experience I've had in the past includes:</p>
