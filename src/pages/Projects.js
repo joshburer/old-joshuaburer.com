@@ -1,7 +1,4 @@
 import "./css/Projects.scss";
-// Image imports
-import example from "../static/example.png";
-import something from "../static/something.jpg";
 
 export default function Projects() {
   return (
@@ -15,13 +12,14 @@ export default function Projects() {
       </section>
       <section className="card-list">
         <ProjectCard>
-          <img src={something} alt="something" />
-          <h2>Project 1</h2>
+          <img alt="" />
+          <h2>Project</h2>
           <p>Meaningful information about the project here.</p>
         </ProjectCard>
         <ProjectCard>
-          <img src={example} alt="example" />
-          <h2>Bo's in the House!</h2>
+          <img alt="" />
+          <h2>Project</h2>
+          <p>Meaningful information about the project here.</p>
         </ProjectCard>
       </section>
     </main>

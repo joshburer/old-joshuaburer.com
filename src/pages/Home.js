@@ -1,4 +1,4 @@
-import profile from "../static/profile.jpg";
+// import profile from "../static/profile.jpg";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -7,13 +7,13 @@ export default function Home() {
       <section className="initial-greeting">
         <h1 className="greeting center">Hey! 👋</h1>
         <h2 className="center">I'm Joshua Burer.</h2>
-        <img
+        {/* <img
           className="profile"
           src={profile}
           alt="profile"
           width="200"
           height="200"
-        />
+        /> */}
         <p>
           I'm a student at Georgia State University, currently pursuing a
           Bachelor's in Computer Science. 💻

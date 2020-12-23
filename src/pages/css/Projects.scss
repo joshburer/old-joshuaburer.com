@@ -30,6 +30,7 @@
     margin-bottom: 1rem;
     transition: ease 0.8s;
     z-index: -1;
+    background-color: rgb(18, 19, 20);
   }
 
   &:hover {
@@ -40,7 +41,9 @@
   }
 }
 .project-card {
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     text-align: center;
   }
   p {
