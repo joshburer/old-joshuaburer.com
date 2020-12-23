@@ -28,7 +28,7 @@ export default function Home() {
           simple but it works for now.
         </p>
         <hr />
-        <p>Programming experience I've had in the past includes:</p>
+        <p>Self-driven programming experience I've had in the past includes:</p>
         <InterestsList />
       </section>
     </main>
