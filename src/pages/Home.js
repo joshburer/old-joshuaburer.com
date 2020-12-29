@@ -54,7 +54,7 @@ function InterestsList() {
         📚 Formal Education: <span className="languages">Java</span>
       </li>
       <li>
-        🎮 Game Development:
+        🎮 Game Development (minimal):
         <span className="languages">
           {" "}
           Unity (C#), Love2D (lua), Godot Engine (GDScript).
