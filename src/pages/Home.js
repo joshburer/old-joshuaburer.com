@@ -1,4 +1,5 @@
 // import profile from "../static/profile.jpg";
+import placeholder from "../static/placeholder.png";
 import "./css/Home.scss";
 import { ReactComponent as HTML5Icon } from "../static/icons/html5.svg";
 import { ReactComponent as CSSIcon } from "../static/icons/css3.svg";
@@ -17,7 +18,7 @@ export default function Home() {
         <div className="introduction">
           <img
             className="profile"
-            src=""
+            src={placeholder}
             alt="profile"
             width="200"
             height="200"
