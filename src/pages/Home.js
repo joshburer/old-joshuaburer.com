@@ -1,65 +1,67 @@
 // import profile from "../static/profile.jpg";
-import { Link } from "react-router-dom";
+import "./css/Home.scss";
+import { ReactComponent as HTML5Icon } from "../static/icons/html5.svg";
+import { ReactComponent as CSSIcon } from "../static/icons/css3.svg";
+import { ReactComponent as JavaScriptIcon } from "../static/icons/javascript.svg";
+import { ReactComponent as ReactIcon } from "../static/icons/react.svg";
+import { ReactComponent as PythonIcon } from "../static/icons/python.svg";
+import { ReactComponent as DjangoIcon } from "../static/icons/django.svg";
+import { ReactComponent as JavaIcon } from "../static/icons/java.svg";
 
 export default function Home() {
   return (
     <main className="page-container fade-in">
-      <section className="initial-greeting">
-        <h1 className="greeting center">Hey! 👋</h1>
+      <section>
+        <h1 className="center">Hey! 👋</h1>
         <h2 className="center">I'm Joshua Burer.</h2>
-        {/* <img
-          className="profile"
-          src={profile}
-          alt="profile"
-          width="200"
-          height="200"
-        /> */}
-        <p>
-          I'm a student at Georgia State University, currently pursuing a
-          Bachelor's in Computer Science. 💻
-        </p>
+        <div className="introduction">
+          <img
+            className="profile"
+            src=""
+            alt="profile"
+            width="200"
+            height="200"
+          />
+          <p>
+            I'm a student at Georgia State University, currently pursuing a
+            Bachelor's in Computer Science. 💻
+          </p>
+        </div>
       </section>
       <section className="info-box">
         {/* <img src={profile} alt="profile" /> */}
-        <h2>Interests & Experience</h2>
+        <h2 className="center">Interests & Experience</h2>
+        <p>So far, I have been formally educated with Java.</p>
         <p>
-          I am working mostly towards learning web development. That includes
-          this website, which I <Link to="/info">built myself.</Link> It's quite
-          simple but it works for now.
+          Personally, I am interested in web development and have been focusing
+          on building those skills through self-motivated learning and
+          experimentation even from before my college career.
         </p>
         <hr />
-        <p>Self-driven programming experience I've had in the past includes:</p>
-        <InterestsList />
+        <Skills />
       </section>
     </main>
   );
 }
-// Just to separate this into a different section so as to not take up so much space.
-function InterestsList() {
+
+function Skills() {
   return (
-    <ul>
-      <li>
-        🌐 Web Development:
-        <ul>
-          <li>
-            Frontend:{" "}
-            <span className="languages">React (JavaScript), HTML, CSS</span>
-          </li>
-          <li>
-            Backend: <span className="languages">Django (Python)</span>
-          </li>
-        </ul>
-      </li>
-      <li>
-        📚 Formal Education: <span className="languages">Java</span>
-      </li>
-      <li>
-        🎮 Game Development (minimal):
-        <span className="languages">
-          {" "}
-          Unity (C#), Love2D (lua), Godot Engine (GDScript).
-        </span>
-      </li>
-    </ul>
+    <div className="skills-list">
+      <SkillItem name="HTML5" image={<HTML5Icon />} />
+      <SkillItem name="CSS" image={<CSSIcon />} />
+      <SkillItem name="JavaScript" image={<JavaScriptIcon />} />
+      <SkillItem name="React" image={<ReactIcon />} />
+      <SkillItem name="Python" image={<PythonIcon />} />
+      <SkillItem name="Django" image={<DjangoIcon />} />
+      <SkillItem name="Java" image={<JavaIcon />} />
+    </div>
+  );
+}
+function SkillItem(props) {
+  return (
+    <div className="skill-item">
+      {props.image}
+      {props.name}
+    </div>
   );
 }

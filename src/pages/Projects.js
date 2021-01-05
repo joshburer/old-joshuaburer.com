@@ -11,10 +11,9 @@ export default function Projects() {
         </p>
       </section>
       <section>
-        <h3 className="center">Stuff that I'm working on learning:</h3>
+        <h3 className="center">I'm currently working on:</h3>
         <ul>
-          <li>Backend-Frontend integration with Django and React</li>
-          <li>Python skills in general</li>
+          <li>Backend-Frontend integration with Django and React (REST API)</li>
         </ul>
         <h3>Hopefully I'll make some good stuff to put on this page!</h3>
       </section>
