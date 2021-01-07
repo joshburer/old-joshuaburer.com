@@ -1,5 +1,5 @@
 // import profile from "../static/profile.jpg";
-import placeholder from "../static/placeholder.png";
+// import placeholder from "../static/placeholder.png";
 import "./css/Home.scss";
 import { ReactComponent as HTML5Icon } from "../static/icons/html5.svg";
 import { ReactComponent as CSSIcon } from "../static/icons/css3.svg";
@@ -16,13 +16,13 @@ export default function Home() {
         <h1 className="center">Hey! 👋</h1>
         <h2 className="center">I'm Joshua Burer.</h2>
         <div className="introduction">
-          <img
+          {/* <img
             className="profile"
             src={placeholder}
             alt="profile"
             width="200"
             height="200"
-          />
+          /> */}
           <p>
             I'm a student at Georgia State University, currently pursuing a
             Bachelor's in Computer Science. 💻
