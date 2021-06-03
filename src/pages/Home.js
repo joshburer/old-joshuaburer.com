@@ -1,13 +1,15 @@
 // import profile from "../static/profile.jpg";
-// import placeholder from "../static/placeholder.png";
+import placeholder from "../static/placeholder.png";
+import {
+  HTML5Icon,
+  CSSIcon,
+  JavaScriptIcon,
+  ReactIcon,
+  PythonIcon,
+  DjangoIcon,
+  JavaIcon,
+} from "../static/icons";
 import "./css/Home.scss";
-import { ReactComponent as HTML5Icon } from "../static/icons/html5.svg";
-import { ReactComponent as CSSIcon } from "../static/icons/css3.svg";
-import { ReactComponent as JavaScriptIcon } from "../static/icons/javascript.svg";
-import { ReactComponent as ReactIcon } from "../static/icons/react.svg";
-import { ReactComponent as PythonIcon } from "../static/icons/python.svg";
-import { ReactComponent as DjangoIcon } from "../static/icons/django.svg";
-import { ReactComponent as JavaIcon } from "../static/icons/java.svg";
 
 export default function Home() {
   return (
@@ -16,27 +18,27 @@ export default function Home() {
         <h1 className="center">Hey! 👋</h1>
         <h2 className="center">I'm Joshua Burer.</h2>
         <div className="introduction">
-          {/* <img
+          <img
             className="profile"
             src={placeholder}
             alt="profile"
             width="200"
             height="200"
-          /> */}
-          <p>
-            I'm a student at Georgia State University, currently pursuing a
-            Bachelor's in Computer Science. 💻
+          />
+          <p className="image-caption center">
+            What's better than this? Guys bein dudes.
           </p>
         </div>
       </section>
       <section className="info-box">
         {/* <img src={profile} alt="profile" /> */}
         <h2 className="center">Interests & Experience</h2>
-        <p>So far, I have been formally educated with Java.</p>
+        <p>🤠</p>
         <p>
-          Personally, I am interested in web development and have been focusing
-          on building those skills through self-motivated learning and
-          experimentation even from before my college career.
+          I'm a student right now, but I do thoroughly enjoy Computer Science
+          topics! I often do programming on my own, as well as do full stack web
+          development as my part time job. Listed below are some of my computer
+          science skills.
         </p>
         <hr />
         <Skills />
