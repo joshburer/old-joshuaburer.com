@@ -14,33 +14,37 @@ import "./css/Home.scss";
 export default function Home() {
   return (
     <main className="page-container fade-in">
-      <section>
-        <h1 className="center">Hey! 👋</h1>
-        <h2 className="center">I'm Joshua Burer.</h2>
+      <section className="hero">
         <div className="introduction">
-          <img
-            className="profile"
-            src={placeholder}
-            alt="profile"
-            width="200"
-            height="200"
-          />
-          <p className="image-caption center">
-            What's better than this? Guys bein dudes.
-          </p>
+          <div className="col">
+            <img
+              className="profile"
+              src={placeholder}
+              alt="profile"
+              width="200"
+              height="200"
+            />
+          </div>
+
+          <div className="col">
+            <i>Hey! 👋</i>
+            <h1>I'm Joshua Burer.</h1>
+            <p>Full stack software developer and full-time student. </p>
+            <p>Pursuing a Bachelor's in Computer Science.</p>
+          </div>
         </div>
       </section>
       <section className="info-box">
         {/* <img src={profile} alt="profile" /> */}
         <h2 className="center">Interests & Experience</h2>
-        <p>🤠</p>
+
         <p>
-          I'm a student right now, but I do thoroughly enjoy Computer Science
-          topics! I often do programming on my own, as well as do full stack web
-          development as my part time job. Listed below are some of my computer
-          science skills.
+          Below are listed some of the skills I've picked up through my
+          experiences in software development!
         </p>
+
         <hr />
+
         <Skills />
       </section>
     </main>
