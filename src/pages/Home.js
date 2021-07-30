@@ -1,5 +1,4 @@
-// import profile from "../static/profile.jpg";
-import placeholder from "../static/placeholder.png";
+import profile from "../static/profile.jpg";
 import {
   HTML5Icon,
   CSSIcon,
@@ -19,7 +18,7 @@ export default function Home() {
           <div className="col">
             <img
               className="profile"
-              src={placeholder}
+              src={profile}
               alt="profile"
               width="200"
               height="200"
@@ -30,19 +29,15 @@ export default function Home() {
             <i>Hey! 👋</i>
             <h1>I'm Joshua Burer.</h1>
             <p>Full stack software developer and full-time student. </p>
-            <p>Pursuing a Bachelor's in Computer Science.</p>
+            <p>
+              Pursuing a Bachelor's in Computer Science 💻 from Georgia Tech.
+            </p>
           </div>
         </div>
       </section>
       <section className="info-box">
         {/* <img src={profile} alt="profile" /> */}
-        <h2 className="center">Interests & Experience</h2>
-
-        <p>
-          Below are listed some of the skills I've picked up through my
-          experiences in software development!
-        </p>
-
+        <h2 className="center">Interests & Skills</h2>
         <hr />
 
         <Skills />

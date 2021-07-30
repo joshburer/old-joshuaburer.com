@@ -16,11 +16,7 @@ export default function Navbar() {
 // Creates a link given a page name
 function NavItem(props) {
   return (
-    <Link
-      to={props.path}
-      className="nav-link"
-      title={props.name}
-    >
+    <Link to={props.path} className="nav-link" title={props.name}>
       <div className="nav-item-contents">
         {props.icon}
         {props.children}
@@ -34,7 +30,7 @@ function NavLinks() {
   return (
     <div className="right nav-elements">
       <NavItem name="Info" path="/info" icon={<InfoIcon />} />
-      <NavItem name="Projects" path="/projects" icon={<FolderIcon />} />
+      <NavItem name="Experience" path="/projects" icon={<FolderIcon />} />
     </div>
   );
 }

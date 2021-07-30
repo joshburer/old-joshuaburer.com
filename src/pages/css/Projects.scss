@@ -48,9 +48,18 @@
   }
   p {
     margin: 1rem;
+    text-indent: 2ch;
+    text-align: justify;
+  }
+  a {
+    margin: 1rem;
   }
   hr {
     border-color: $bg-color;
     background-color: $bg-color;
   }
+}
+
+pre {
+  margin-top: 0.5rem;
 }

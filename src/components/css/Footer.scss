@@ -26,6 +26,10 @@
   .link-button {
     box-sizing: border-box;
     font-size: 1.25rem;
-    width: 128px;
+    width: 10rem;
+
+    svg {
+      flex-shrink: 0;
+    }
   }
 }
