@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cee12c9.chunk.css",
-    "main.js": "/static/js/main.f4dee8c5.chunk.js",
-    "main.js.map": "/static/js/main.f4dee8c5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.79bbb601.js",
-    "runtime-main.js.map": "/static/js/runtime-main.79bbb601.js.map",
-    "static/js/2.4d904913.chunk.js": "/static/js/2.4d904913.chunk.js",
-    "static/js/2.4d904913.chunk.js.map": "/static/js/2.4d904913.chunk.js.map",
-    "static/js/3.7bb37b23.chunk.js": "/static/js/3.7bb37b23.chunk.js",
-    "static/js/3.7bb37b23.chunk.js.map": "/static/js/3.7bb37b23.chunk.js.map",
+    "main.css": "/static/css/main.7bf29161.chunk.css",
+    "main.js": "/static/js/main.f53e827e.chunk.js",
+    "main.js.map": "/static/js/main.f53e827e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f24bc3a3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f24bc3a3.js.map",
+    "static/js/2.0da54df4.chunk.js": "/static/js/2.0da54df4.chunk.js",
+    "static/js/2.0da54df4.chunk.js.map": "/static/js/2.0da54df4.chunk.js.map",
+    "static/js/3.aafccc1d.chunk.js": "/static/js/3.aafccc1d.chunk.js",
+    "static/js/3.aafccc1d.chunk.js.map": "/static/js/3.aafccc1d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5cee12c9.chunk.css.map": "/static/css/main.5cee12c9.chunk.css.map",
-    "static/js/2.4d904913.chunk.js.LICENSE.txt": "/static/js/2.4d904913.chunk.js.LICENSE.txt",
+    "static/css/main.7bf29161.chunk.css.map": "/static/css/main.7bf29161.chunk.css.map",
+    "static/js/2.0da54df4.chunk.js.LICENSE.txt": "/static/js/2.0da54df4.chunk.js.LICENSE.txt",
     "static/media/css3.7825b12d.svg": "/static/media/css3.7825b12d.svg",
     "static/media/django.5e939358.svg": "/static/media/django.5e939358.svg",
     "static/media/email.abdae645.svg": "/static/media/email.abdae645.svg",
@@ -24,14 +24,14 @@
     "static/media/javascript.7f989d8a.svg": "/static/media/javascript.7f989d8a.svg",
     "static/media/linkedin.3172afd2.svg": "/static/media/linkedin.3172afd2.svg",
     "static/media/mtech.4e45d74a.png": "/static/media/mtech.4e45d74a.png",
-    "static/media/profile.729f4534.jpg": "/static/media/profile.729f4534.jpg",
+    "static/media/profile.058a63cd.jpg": "/static/media/profile.058a63cd.jpg",
     "static/media/python.a0bfd241.svg": "/static/media/python.a0bfd241.svg",
     "static/media/react.12050cd3.svg": "/static/media/react.12050cd3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.79bbb601.js",
-    "static/js/2.4d904913.chunk.js",
-    "static/css/main.5cee12c9.chunk.css",
-    "static/js/main.f4dee8c5.chunk.js"
+    "static/js/runtime-main.f24bc3a3.js",
+    "static/js/2.0da54df4.chunk.js",
+    "static/css/main.7bf29161.chunk.css",
+    "static/js/main.f53e827e.chunk.js"
   ]
 }
