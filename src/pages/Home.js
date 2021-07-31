@@ -1,4 +1,5 @@
 import profile from "../static/profile.jpg";
+import profiletiny from "../static/profiletiny.png";
 import {
   HTML5Icon,
   CSSIcon,
@@ -8,6 +9,7 @@ import {
   DjangoIcon,
   JavaIcon,
 } from "../static/icons";
+import { LazyImage } from "../components/LazyImage";
 import "./css/Home.scss";
 
 export default function Home() {
@@ -16,9 +18,10 @@ export default function Home() {
       <section className="hero">
         <div className="introduction">
           <div className="col">
-            <img
+            <LazyImage
               className="profile"
-              src={profile}
+              lowQualitySrc={profiletiny}
+              highQualitySrc={profile}
               alt="profile"
               width="200"
               height="200"

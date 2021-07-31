@@ -21,7 +21,7 @@
   img {
     text-indent: 100%;
     max-width: 85%;
-    width: auto;
+    width: 400px;
     min-width: 14rem;
   }
 
@@ -60,11 +60,6 @@ img.profile {
   background-color: $bg-color2;
   transition: ease-out 0.4s;
   box-shadow: 0px 0px 20px 5px $bg-color2;
-
-  &:hover {
-    transform: scale(1.025);
-    transform-origin: 50%, 50%;
-  }
 }
 
 .skills-list {
