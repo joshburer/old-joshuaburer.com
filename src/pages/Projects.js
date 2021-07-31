@@ -1,6 +1,6 @@
 import "./css/Projects.scss";
 import mtech from "../static/mtech.png";
-import freelance from "../static/freelance.png";
+import freelance from "../static/freelance.jpg";
 
 export default function Projects() {
   return (
