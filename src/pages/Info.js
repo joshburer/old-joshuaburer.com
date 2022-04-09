@@ -17,10 +17,6 @@ export default function Info() {
       >
         view the git repository here
       </a>
-      <p>
-        This site was just something I built for fun to help me learn how to
-        work on multi-page React apps and utilize Git for project management.
-      </p>
     </main>
   );
 }

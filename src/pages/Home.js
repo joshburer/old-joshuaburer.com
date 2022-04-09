@@ -1,5 +1,5 @@
 import profile from "../static/profile.jpg";
-import profiletiny from "../static/profiletiny.png";
+import profiletiny from "../static/profiletiny.jpg";
 import {
   HTML5Icon,
   CSSIcon,
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="col">
             <i>Hey! 👋</i>
             <h1>I'm Joshua Burer.</h1>
-            <p>Full stack software developer and full-time student. </p>
+            <p>Full stack full-time software developer and student. </p>
             <p>
               Pursuing a Bachelor's in Computer Science 💻 from Georgia Tech.
             </p>
@@ -39,7 +39,6 @@ export default function Home() {
         </div>
       </section>
       <section className="info-box">
-        {/* <img src={profile} alt="profile" /> */}
         <h2 className="center">Interests & Skills</h2>
         <hr />
 

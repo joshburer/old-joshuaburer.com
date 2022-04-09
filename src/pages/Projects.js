@@ -12,12 +12,12 @@ export default function Projects() {
           <h2>Morris Technology</h2>
           <pre className="center">January 2021 - Present</pre>
           <pre className="center">
-            Junior Solutions
-            <br />
-            Developer & Team Lead
+            Solutions Developer
+            <br /> & <br />
+            Junior Solutions Team Lead
           </pre>
           <p>
-            Part time work as a full-stack web developer, using Python & Django
+            Full-time work as a full-stack web developer, using Python & Django
             for backend, and React, JavaScript, HTML, and CSS for frontend.
           </p>
         </ProjectCard>
