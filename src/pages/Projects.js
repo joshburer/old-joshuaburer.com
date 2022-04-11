@@ -10,16 +10,13 @@ export default function Projects() {
         <ProjectCard>
           <img alt="" src={mtech} />
           <h2>Morris Technology</h2>
+          <pre className="center">Solutions Developer</pre>
           <pre className="center">January 2021 - Present</pre>
-          <pre className="center">
-            Solutions Developer
-            <br /> & <br />
-            Junior Solutions Team Lead
-          </pre>
-          <p>
-            Full-time work as a full-stack web developer, using Python & Django
-            for backend, and React, JavaScript, HTML, and CSS for frontend.
-          </p>
+          <ul>
+            <li>Full-time work as a full-stack web developer.</li>
+            <li>Used Python & Django for backend.</li>
+            <li>Used React, JavaScript, HTML, and CSS/Sass for frontend.</li>
+          </ul>
         </ProjectCard>
         <ProjectCard>
           <img alt="" src={freelance} />

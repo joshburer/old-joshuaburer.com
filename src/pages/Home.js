@@ -31,9 +31,10 @@ export default function Home() {
           <div className="col">
             <i>Hey! 👋</i>
             <h1>I'm Joshua Burer.</h1>
-            <p>Full stack full-time software developer and student. </p>
+            <p>Right now, I'm working as a full stack web developer. </p>
             <p>
-              Pursuing a Bachelor's in Computer Science 💻 from Georgia Tech.
+              Currently, I'm pursuing a Bachelor of Science in Computer Science
+              💻 from Georgia Tech.
             </p>
           </div>
         </div>
